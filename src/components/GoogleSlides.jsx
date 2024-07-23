@@ -5,7 +5,7 @@ const GoogleSlide = () => {
   return (
     <div className="widget">
       
-      <iframe src={slideUrl} className=" rounded-xl overflow-hidden" scrolling="no" width="465" height="299" ></iframe>
+      <iframe src={slideUrl} className=" rounded-xl overflow-hidden" scrolling="no" width="285" height="220" ></iframe>
     </div>
   );
 };
