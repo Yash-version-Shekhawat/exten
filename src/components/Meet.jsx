@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, TextField, Button, Typography, Card, CardContent } from '@mui/material';
+import { TextField, Button, Card, CardContent } from '@mui/material';
 
 const GoogleMeetWidget = () => {
   const [meetLink, setMeetLink] = useState('');

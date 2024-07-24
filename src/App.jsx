@@ -12,6 +12,7 @@ import utube from './assets/youtube.png';
 import chat from './assets/chatgpt.png';
 import star from './assets/star.png';
 import './App.css'
+import Poll from './components/Poll';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -56,12 +57,15 @@ function App() {
   <Announcement/>
   <div className='flex'>
   <div class="Spreadsheet"><Spreadsheet/></div>
+  <div className='flex flex-col'>
   <div className="Meet"><Meet/></div>
+  <div class="Poll"><Poll/></div>
+  </div>
   </div>
   <div class="Music"><Music/></div>
   
 
-  <div class="Poll"></div>
+  
   <div class="Steps"></div>
 
 </div>
