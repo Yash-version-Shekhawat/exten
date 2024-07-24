@@ -6,7 +6,7 @@ const Keep = () => {
       <iframe
         src="https://quicknote.io/"
         title="Notes"
-        className='w-[260px] h-[220px] overflow-hidden border-gray-400 border-2 rounded-xl'
+        className='w-[260px] h-[220px] overflow-hidden border-gray-400 border-2 rounded-3xl'
       ></iframe>
     </div>
   );

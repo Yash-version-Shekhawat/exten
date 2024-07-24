@@ -22,7 +22,7 @@ const Pomodoro = () => {
   const seconds = timeLeft % 60;
 
   return (
-    <div className="widget bg-gradient-to-b from-[#95D9DF80] to-[#6E94DC] h-[220px] rounded-xl w-[260px]">
+    <div className="widget bg-gradient-to-b from-[#95D9DF80] to-[#6E94DC] h-[220px] rounded-3xl w-[260px]">
       <div className="flex items-center flex-col gap-2 w-[260px]">
         <span className="text-xl font-bold mt-5 flex gap-2 text-[#1b263b] space-grotesk "><img src={Pomo} alt="Pomodoro" className="w-6 h-6 mb-3" />Pomodoro</span>
         <span className="text-5xl font-bold text-[#1b263b] ">{`${minutes}:${seconds < 10 ? '0' : ''}${seconds}`}</span>
