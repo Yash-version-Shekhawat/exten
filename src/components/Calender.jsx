@@ -5,7 +5,7 @@ const Calender = () => {
   return (
     <div className="widget">
       
-      <iframe src={slideUrl} className=" rounded-3xl pt-1 overflow-hidden border-2 border-[#6E94DC40]" scrolling="no" width="270" height="325" ></iframe>
+      <iframe src={slideUrl} className=" rounded-3xl pt-1 -ml-[0.35rem] overflow-hidden border-2 border-[#6E94DC20]" scrolling="no" width="280" height="260"  ></iframe>
     </div>
   );
 };

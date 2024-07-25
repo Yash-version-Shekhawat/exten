@@ -23,11 +23,8 @@ const GoogleMeetWidget = () => {
   };
 
   return (
-    <Card sx={{ maxWidth: 265, ml: 3, mt: -8, px: 2, pt: 1, pb:2, boxShadow: 3, borderRadius: 5 }}>
+    <Card sx={{ maxWidth: 273, px: 2, pb:2, borderRadius: 6, height: 150, border: 1, borderColor: '#f1f1f1'}}>
       <CardContent>
-        <p className='text-lg'>
-          Google Meet
-        </p>
         <TextField
           fullWidth
           label="Google Meet Link"
@@ -40,14 +37,16 @@ const GoogleMeetWidget = () => {
         />
         <Button
           variant="contained"
-          color="primary"
           onClick={joinMeeting}
           fullWidth
-          sx={{ py: 1,
+          sx={{ 
                 mb: -2,
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '13px',
-                fontWeight: 'medium'
+                fontWeight: 'medium',
+                backgroundColor: '#1e1e1e',
+                borderRadius: 2,
+                height: '40px'
           }}
         >
           Join Meeting

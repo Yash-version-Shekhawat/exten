@@ -1,12 +1,20 @@
 import React from 'react';
-
+import Marquee from "react-fast-marquee";
 const Announcement = () => {
   return (
-    <div className="widget">
+    <div className="widget -mt-5">
       <h3 className="text-base font-medium mt-6 mb-1 font-sans text-[#1E1E1E]">Announcements</h3>
-      <marquee behavior="scroll" direction="left" className="block py-2 bg-[#6E94DC35] capitalize rounded-lg text-[#1E1E1E] font-mid w-[838px]">
-        The Company had a great progress in the 3rd quater .  Company would provide incentives this week .
-      </marquee>
+      <div className="flex py-2 bg-[#D2EDF6] capitalize rounded-lg text-[#000000] font-mid w-[845px]">
+      <Marquee >
+        <p>The Company had a great progress in the 3rd quater</p>
+        <div className='text-[1vw] font-sans font-bold text-[#000000] px-2'>●</div>
+        <p>Need a team for the upcoming project with google</p>
+        <div className='text-[1vw] font-sans font-bold text-[#000000] px-2'>●</div>
+        <p>Holiday on 1st August</p>
+        <div className='text-[1vw] font-sans font-bold text-[#000000] px-2'>●</div>
+
+      </Marquee>
+      </div>
     </div>
   );
 };
