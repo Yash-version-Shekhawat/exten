@@ -20,7 +20,7 @@ function Issue() {
   };
 
   return (
-    <div className="p-4 w-[273px] border-2 border-gray-100 shadow-xl  rounded-3xl h-[408px] mb-9">
+    <div className="p-4 w-[273px] shadow-xl bg-[#716af210] rounded-3xl h-[408px] mb-9">
       <h1 className="text-xl mb-4">Issue Tracker</h1>
       <form onSubmit={addIssue} className="mb-4">
         <div className="mb-2">
@@ -42,7 +42,7 @@ function Issue() {
             required
           />
         </div>
-        <button type="submit" className="bg-[#1e1e1e] text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+        <button type="submit" className="bg-[#716af2] text-white px-4 py-2 rounded-lg hover:bg-blue-600">
           Add Issue
         </button>
       </form>

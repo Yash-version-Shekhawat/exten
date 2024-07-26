@@ -22,10 +22,10 @@ const Pomodoro = () => {
   const seconds = timeLeft % 60;
 
   return (
-    <div className="widget bg-gradient-to-b from-[#95D9EF90] via-[#95D9EF90] to-[#81A9F5] h-[220px] rounded-3xl w-[415px]">
+    <div className="widget bg-gradient-to-b from-[#95D9EF90] via-[#95d9ef90] to-[#847ef0] h-[220px] rounded-3xl w-[415px]">
       <div className="flex items-center flex-col gap-2 w-[415px]">
-        <span className="text-xl font-bold mt-5 flex gap-2 text-[#1b263b] space-grotesk "><img src={Pomo} alt="Pomodoro" className="w-6 h-6 mb-3" />Pomodoro</span>
-        <span className="text-5xl font-bold text-[#1b263b] ">{`${minutes}:${seconds < 10 ? '0' : ''}${seconds}`}</span>
+        <span className="text-xl font-bold mt-5 flex gap-2 text-[#1B263B] space-grotesk "><img src={Pomo} alt="Pomodoro" className="w-6 h-6 mb-3" />Pomodoro</span>
+        <span className="text-5xl font-bold text-[#1B263B] ">{`${minutes}:${seconds < 10 ? '0' : ''}${seconds}`}</span>
         <button onClick={() => setIsRunning(!isRunning)} className="px-2 py-1 text-extrabold font-medium bg-white rounded-xl w-36 h-9">
           {isRunning ? 'STOP' : 'START'}
         </button>

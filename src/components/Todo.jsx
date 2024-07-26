@@ -88,7 +88,7 @@ const Todo = () => {
 
   return (
     <div className="flex w-[270px]">
-      <div className="bg-white border-2 border-gray-100 shadow-xl rounded-3xl p-5 w-full max-w-md h-[300px] ">
+      <div className="bg-[#716af210] shadow-xl rounded-3xl p-5 w-full max-w-md h-[300px] ">
         <h1 className="text-xl mb-4 font-sans">Daily Checklist</h1>
         <input
           type="text"
@@ -99,7 +99,7 @@ const Todo = () => {
         />
         <button
           onClick={handleAddTask}
-          className="bg-[#1e1e1e] text-white px-4 py-2 rounded-lg mb-4 w-full"
+          className="bg-[#716af2] text-white px-4 py-2 rounded-lg mb-4 w-full"
         >
           Add Task
         </button>

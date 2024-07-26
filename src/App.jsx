@@ -4,7 +4,6 @@ import Pomodoro from './components/Pomodoro';
 import Announcement from './components/Announcement';
 import Keep from './components/Keep';
 import Meet from './components/Meet';
-import Spreadsheet from './components/Spreadsheet';
 import Calender from './components/Calender';
 import spotify from './assets/spotify.png';
 import utube from './assets/youtube.png';
@@ -40,21 +39,21 @@ function App() {
   };
 
   return(
-    <div className='flex h-screen w-[100%] relative bg-[#1e1e1e]'>
-    <div className=' h-auto w-[5%] bg-[#1e1e1e] flex flex-col gap-11 justify-center items-center'>
+    <div className='flex h-screen w-[100%] relative bg-gradient-to-b from-[#2e2e2e] to-[#1e1e1e]'>
+    <div className=' h-auto w-[5%] bg-gradient-to-b from-[#2e2e2e] to-[#1e1e1e] flex flex-col gap-11 justify-center items-center'>
       <button onClick={openSpotify}><img src={spotify} className='w-8 hover:w-10 animate-pulse'/></button>
       <button onClick={openYouTube}><img src={utube} className='w-8 hover:w-10 animate-pulse'/></button>
       <button onClick={openChatGPT}><img src={chat} className='w-8 hover:w-10 animate-pulse'/></button>
       <button onClick={openGemini}><img src={star} className='w-8 hover:w-10 animate-pulse'/></button>
     </div>
-    <div className=' main my-3 mr-3 rounded-3xl w-[95%] bg-[#ffffff] overflow-hidden overflow-y-scroll scroll'>
-      <div className=' pt-3 pl-9 pb-3 rounded-3xl flex'>
-      <p className='text-5xl text-[#1e1e1e] font-medium font-sans mt-2'>NoticeIt</p>
+    <div className=' main w-[95%] bg-[#ffffff] overflow-hidden overflow-y-scroll scroll'>
+      <div className=' pt-3 pl-9 pb-4 rounded-b-3xl flex bg-[#716af210]'>
+      <p className='text-4xl text-[#1e1e1e] font-semibold font-sans mt-2'>Digi-Notice</p>
       <Voice/>
-      <button onClick={mail}><div className='w-11 h-11 bg-[#1e1e1e] flex justify-center items-center ml-2 mt-[10px]  rounded-xl'><img className='w-7' src={gmail}/></div></button>
-      <button onClick={x}><div className='w-11 h-11 bg-[#1e1e1e] flex justify-center items-center ml-3 mt-[10px] rounded-xl'><img className='w-5' src={twitter}/></div></button>
-      <div className='w-24 h-12 bg-[#] mt-2 rounded-3xl font-semibold ml-[6.3rem] flex justify-center items-center'>Login</div>
-      <div className='w-24 h-12 bg-[#1e1e1e] mt-2 rounded-3xl flex justify-center items-center text-white'>Sign up</div>
+      <button onClick={mail}><div className='w-11 h-11 bg-red-400 flex justify-center items-center ml-2 mt-[10px]  rounded-xl'><img className='w-7' src={gmail}/></div></button>
+      <button onClick={x}><div className='w-11 h-11 bg-[#000000] flex justify-center items-center ml-3 mt-[10px] rounded-xl'><img className='w-5' src={twitter}/></div></button>
+      <div className='w-24 h-12 bg-[#] mt-2 rounded-3xl font-semibold ml-[5.8rem] flex justify-center items-center'>Login</div>
+      <div className='w-24 h-12 bg-[#716af2] mt-2 rounded-3xl flex justify-center items-center text-white'>Sign up</div>
       
       </div>
       <div className='pl-9'><Announcement/></div>

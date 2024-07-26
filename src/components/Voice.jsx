@@ -40,10 +40,10 @@ function Voice() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center mt-3 w-[12rem] ml-[22.5rem]  ">
+    <div className="flex flex-col items-center justify-center mt-3 w-[12rem] ml-[21.3rem]  ">
       <button
         onClick={startListening}
-        className={`px-4 font-semibold py-2 border-2 rounded-lg text-black ${isListening ? 'bg-red-500' : 'bg-[#ffffff]'} hover:bg-opacity-80`}
+        className={`px-4 font-semibold py-2 rounded-lg text-black ${isListening ? 'bg-red-500' : 'bg-[#ffffff]'} hover:bg-opacity-80`}
       >
         {isListening ? 'Listening...' : 'Start Voice Search'}
       </button>

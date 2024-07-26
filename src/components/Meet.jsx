@@ -23,7 +23,7 @@ const GoogleMeetWidget = () => {
   };
 
   return (
-    <Card sx={{ maxWidth: 273, px: 2, pb:2, borderRadius: 6, height: 150, border: 1, borderColor: '#f1f1f1'}}>
+    <Card sx={{ maxWidth: 273, px: 2, pb:2, borderRadius: 6, height: 150, backgroundColor: '#716af210'}}>
       <CardContent>
         <TextField
           fullWidth
@@ -44,7 +44,7 @@ const GoogleMeetWidget = () => {
                 fontFamily: 'Poppins, sans-serif',
                 fontSize: '13px',
                 fontWeight: 'medium',
-                backgroundColor: '#1e1e1e',
+                backgroundColor: '#716af2',
                 borderRadius: 2,
                 height: '40px'
           }}

@@ -24,7 +24,7 @@ function Poll() {
   };
 
   return (
-    <div className="p-4 w-[270px] h-[300px] rounded-3xl bg-[#D2EDF6] shadow-xl ">
+    <div className="p-4 w-[270px] h-[300px] rounded-3xl bg-[#716af230] shadow-xl ">
       <h1 className="text-xl mb-4">{poll.question}</h1>
       <div className="space-y-1">
         {poll.options.map((option, index) => (
