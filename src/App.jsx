@@ -37,7 +37,6 @@ function App() {
   const x = () => {
     window.open('https://x.com/home', '_blank');
   };
-
   return(
     <div className='flex h-screen w-[100%] relative bg-gradient-to-b from-[#2e2e2e] to-[#1e1e1e]'>
     <div className=' h-auto w-[5%] bg-gradient-to-b from-[#2e2e2e] to-[#1e1e1e] flex flex-col gap-11 justify-center items-center'>
@@ -48,7 +47,7 @@ function App() {
     </div>
     <div className=' main w-[95%] bg-[#ffffff] overflow-hidden overflow-y-scroll scroll'>
       <div className=' pt-3 pl-9 pb-4 rounded-b-3xl flex bg-[#716af210]'>
-      <p className='text-4xl text-[#1e1e1e] font-semibold font-sans mt-2'>Digi-Notice</p>
+      <p className='text-4xl text-[#1e1e1e] font-semibold font-sans mt-2'>NoticeIt</p>
       <Voice/>
       <button onClick={mail}><div className='w-11 h-11 bg-red-400 flex justify-center items-center ml-2 mt-[10px]  rounded-xl'><img className='w-7' src={gmail}/></div></button>
       <button onClick={x}><div className='w-11 h-11 bg-[#000000] flex justify-center items-center ml-3 mt-[10px] rounded-xl'><img className='w-5' src={twitter}/></div></button>
