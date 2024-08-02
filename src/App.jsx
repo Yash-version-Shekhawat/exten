@@ -16,7 +16,6 @@ import Poll from './components/Poll';
 import Todo from './components/Todo';
 import Voice from './components/Voice';
 import Issue from './components/Issue';
-
 function App() {
   const [count, setCount] = useState(0)
   const openSpotify = () => {
