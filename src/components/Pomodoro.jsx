@@ -20,7 +20,6 @@ const Pomodoro = () => {
 
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
-
   return (
     <div className="widget bg-gradient-to-b from-[#95D9EF90] via-[#95d9ef90] to-[#847ef0] h-[220px] rounded-3xl w-[415px]">
       <div className="flex items-center flex-col gap-2 w-[415px]">
