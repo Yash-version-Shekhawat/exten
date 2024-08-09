@@ -1,5 +1,4 @@
 import React from 'react';
-
 const GoogleSlide = () => {
   const slideUrl = 'https://docs.google.com/presentation/d/e/2PACX-1vTmEWmxPo2AzEKHhpjj4BiVsIFFNV3eXeteuBKc7swBhlEt6DULgEfofsAmwOEJBMAZpxDzK5KUpaXI/embed?start=false&loop=false&delayms=3000';
   return (
@@ -9,5 +8,4 @@ const GoogleSlide = () => {
     </div>
   );
 };
-
 export default GoogleSlide;
